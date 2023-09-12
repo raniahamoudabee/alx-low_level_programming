@@ -1,11 +1,11 @@
 #include "main.h"
 /*
-*main - print _putchar
-*is written by mbah
-*Return: Always 0 (success)
-*/
-int(void)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-printf ("_putchar\n");
-return(0);
+    print_alphabet();
+    return (0);
 }
