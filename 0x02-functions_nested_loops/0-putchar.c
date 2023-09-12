@@ -1,12 +1,19 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-/*
-*main - Entry point
-*Return: Always 0 (success)
-*/
+#include "putchar.h"
+
+/**
+ * main - Print the word "main"
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	printf("_putchar\n");
+	int i;
+	char p[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(p[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
