@@ -1,18 +1,13 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_numbers - print 0-9
- *
- * Return void
- *
+ * main - check the code
+ *@a: first int
+ *@b: second int
+ *Return: Always 0
  */
-void print_numbers(void);
+int mul(int a, int b)
 {
-	char c;
-	
-	for (c = '0'; c<= '9'; c++)
-	{
-		_putchar(0);
-	}
-	_putchar('\n');
+	return (a * b);
 }
