@@ -13,5 +13,5 @@ for(c = '0';c <= '9'; c++)
 	{
 	printf("%d", c);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
