@@ -3,20 +3,24 @@
 /**
  * _puts_recursion - check the code
  *
- * @s:input
+ * @s: string
  *
  * Return: man puts.
+ *
  */
 
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	int i = 0;
+
+	if (*s != '\0')
 	{
+		++i;
 		_putchar('\n');
 	}
 	else
 	{
 		_ptuchar(*s);
-		_puts_recursion(s + 1);
+		_puts_recursion(s);
 	}
 }
