@@ -3,12 +3,12 @@
 /**
  * _puts_recursion - check the code
  *
- *@puts: input
-
+ * @s:input
+ *
  * Return: man puts.
  */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
