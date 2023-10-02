@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- * name - program that prints its name, followed by a new line
- * @aegc:input
- * @aegv:output
+ * main - prints its name, followed by a new line.
+ * @argc: argument count
+ * @argv: arguments
  *
- * RETURN: (0)
+ * Return: 0
  */
-int main(int argc, char const *argv[])
+int main(int argc, char **argv)
 {
 	(void)argc;
+
 	printf("%s\n", argv[0]);
-		return (0);
+	return (0);
 }
